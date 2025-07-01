@@ -5,34 +5,3 @@ body {
   background: #f4f4f4;
   color: #333;
 }
-
-header {
-  background: #a27ff3;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-.filtros {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.filtro-btn {
-  background: #b22222;
-  color: white;
-  border: none;
-  padding: 8px 12px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.filtro-btn:hover {
-  background: #8b0000;
-}
-
-.hidden {
-  display: none;
-}
