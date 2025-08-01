@@ -10,9 +10,19 @@ body {
   font-style: normal;
   color: blueviolet;
 }
-h1 {
+h1.marca-name {
   font-family: "Irish Grover", system-ui;
   font-weight: 400;
   font-style: normal;
-  color: blueviolet;
+  color: rgb(226, 43, 43);
+
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  
+  border: #000000 1px solid;
+
 }
