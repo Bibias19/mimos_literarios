@@ -22,7 +22,7 @@ h1.marca-name {
   align-items: center;
   gap: 10px;
   padding: 10px;
-  
+  width: 100%;
   border: #000000 1px solid;
 
 }
