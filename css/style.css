@@ -2,27 +2,35 @@ body {
   margin: 0;
   padding: 0;
   background: #f4f4f4;
+}
 
+.logo {
+  position: relative;
+  height:180px;
+  width: 100%;
+  background-color: #f1a47a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.irish-grover-regular {
-  font-family: "Irish Grover", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  color: blueviolet;
-}
+
 h1.marca-name {
   font-family: "Irish Grover", system-ui;
-  font-weight: 400;
   font-style: normal;
-  color: rgb(226, 43, 43);
-
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.logo{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px;
+.navbar {
+position: relative;
   width: 100%;
-  border: #000000 1px solid;
-
+  background-color: #f1a47a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
