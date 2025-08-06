@@ -6,7 +6,7 @@ body {
 
 .logo {
   position: relative;
-  height:180px;
+  height:150px;
   width: 100%;
   background-color: #f1a47a;
   display: flex;
@@ -19,18 +19,94 @@ h1.marca-name {
   font-style: normal;
   color: #fff;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 3em;
+  font-size: 5em;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.navbar {
+.nav-bar {
 position: relative;
   width: 100%;
   background-color: #f1a47a;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+ul.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #f3c1a6;
+}
+nav li {
+  margin: 0 3px;
+  flex: 1;
+  text-align: center;
+
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+nav a:hover {
+  color: #ffffff;
+  background-color: #dd8c4a; 
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #dd8c4a;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
