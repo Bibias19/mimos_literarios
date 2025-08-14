@@ -120,7 +120,27 @@ ul.nav-list {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+.container-search {
+  position: absolute;
+  top: 28%;
+  min-height: 100vh;
+  max-width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  flex-direction: column;
+}
+.items {
+ list-style: none;
+}
+.item-image img{
+  width: 100px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Festive&family=Joti+One&family=Oi&family=Original+Surfer&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @media (max-width: 768px) {
   .nav-list {
     flex-direction: column;
@@ -135,43 +155,7 @@ ul.nav-list {
     height: auto;
   }
 }
-.search-container {
-  position: relative;
-  display: inline-block;
-  margin-left: auto;
-}
-.search-input {
-  padding: 8px;
-  border: 1px solid #ffffff;
-  border-radius: 4px;
-  width: 300px;
-
-}
-.search-button {
-  padding: 8px 12px;
-  background-color: #ffffff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.cart-icon{
-  position: relative;
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-}
-.cart-icon img {
-  width: 100%;
-}
 
 
-.profile-icon{
-  position: relative;
-  display: inline-block;
-  width: 40px;
-  height: 40px;}
 
-  .profile-icon img {
-  width: 100%;}
 
